@@ -154,6 +154,8 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+console.log('Welcome to the application');
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
